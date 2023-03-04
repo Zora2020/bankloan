@@ -1,0 +1,254 @@
+
+
+.eva-title{
+    margin-top: 48px;
+    margin-bottom: 36px;
+    h2{
+        font-size: 36px;
+        margin-bottom: 20px;
+        letter-spacing: 0.02em;
+        color:  $font-main-color;
+    }
+    h3{
+        letter-spacing: 0.1em;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color:  $font-main-color;
+    }
+    
+} 
+
+.eva-title2{
+    display: none;
+}
+.eva-text2{
+    display: none;
+}
+.eva-medium{
+    max-width: 960px;
+}
+.eva-item{
+    width: 30%;
+}
+
+@media(max-width:820px){
+    .eva-title{
+        margin-top: 36px;
+        margin-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+        h2{
+            font-size: 24px;
+            margin-bottom: 16px;
+            letter-spacing: 0.02em;
+            color:  $font-main-color;
+        }
+        h3{
+            letter-spacing: 0.05em;
+            font-size: 12px;
+            margin-bottom: 10px;
+            color:  $font-main-color;
+        }
+        
+    } 
+    .eva-title2{
+        display: none;
+    }
+    .eva-text2{
+        display: none;
+
+.bank{
+    padding-right: 16px;
+
+}
+
+}
+}
+
+
+
+@media(max-width:420px){
+    .eva-title{
+        margin-top: 36px;
+        margin-bottom: 32px;
+        h2{
+            font-size: 20px;
+            margin-bottom: 16px;
+            letter-spacing: 0.02em;
+            color:  $font-main-color;
+        }
+        h3{
+            letter-spacing: 0em;
+            font-size: 9px;
+            margin-bottom: 10px;
+            color:  $font-main-color;
+            line-height: 1.8em;
+        }
+        
+    } 
+
+    .eva-item{
+        width: 50%;
+    }
+ 
+    .eva-title1{
+        display: none;
+    }
+
+    .eva-title2{
+        display: block;
+
+    }
+
+    .eva-text1{
+        display: none;
+    }
+
+    .eva-text2{
+        display: block;
+        margin-right: 24px;
+        margin-left: 24px;
+
+    }
+    .bank{
+        margin-right: 16px;
+    }
+
+
+
+
+}
+
+
+
+
+
+.medium-text{
+    color:  $color-basse;
+    img{
+        padding-top: 8px;
+    }
+
+    h2{
+    padding-top: 8px;
+
+    }
+    p{
+        padding-top: 16px;
+        letter-spacing: 0.25em;
+    }
+}
+
+@media(max-width:820px){
+    .medium-text{
+        h2{
+            font-size: 16px;
+        }
+        p{
+            line-height: 1.5em;
+        }
+    }
+
+
+    
+}
+@media(max-width:420px){
+    .medium-text{
+        h2{
+            font-size: 16px;
+            
+        }
+        p{
+            line-height: 1.5em;
+        }
+    }
+    
+}
+
+
+
+.bank{ 
+    padding-top: 72px;
+    li{
+        margin-bottom: 24px;
+        height: 36px;
+        max-width: 200px;
+        border: 1.5px solid #d8d8d8;
+        border-radius: 12px;
+
+    p{
+        padding-top: 8px;
+        letter-spacing: 4px;
+        color:  $color-basse;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    }
+}
+
+
+@media(max-width:820px){
+    .bank{ 
+        padding-top: 36px;
+        li{
+            margin-bottom: 8px;
+            height: auto;
+            max-width: 120px;
+            border: 1.5px solid #d8d8d8;
+            border-radius: 12px;
+    
+        p{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            letter-spacing: 0px;
+            color:  $color-basse;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 8px;
+        }
+        }
+    }
+
+}
+
+@media(max-width:420px){
+    .bank{ 
+        padding-top: 36px;
+        li{
+            margin-bottom: 12px;
+            height: 36px;
+            max-width: 120px;
+            border: 1.5px solid #d8d8d8;
+            border-radius: 12px;
+    
+        p{
+            padding-top: 8px;
+            letter-spacing: 0px;
+            color:  $color-basse;
+            padding-left: 3px;
+            padding-right: 3px;
+            font-size: 8px;
+        }
+        }
+    }
+    
+}
+
+
+.eva-bottum{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    p{
+        margin-bottom: 8px;
+        color:  $font-main-color;
+    }
+}
+
+@media(max-width:820px){
+    .eva-bottum{
+    margin-left: 12px;
+    margin-right: 12px;
+
+
+}
+}

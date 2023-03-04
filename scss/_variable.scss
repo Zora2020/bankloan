@@ -1,0 +1,109 @@
+$color-basse: rgb(150, 150, 150);
+$font-main-color:#5d5d5d;
+$font-m:16px;
+$font-family-base:'Helvatica,sans-serif,serif';
+
+.df{
+    display: flex;
+}
+.fw{
+    flex-wrap: wrap;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.jcse{
+    justify-content: space-evenly;
+
+}
+
+.jcfs{
+    justify-content: flex-start;
+
+}
+
+.lt-sp-s{
+    letter-spacing: 0.1em;
+}
+
+.lt-sp-m{
+    letter-spacing: 0.3em;
+}
+
+.lt-sp-l{
+    letter-spacing: 0.6em;
+}
+
+.tac{
+    text-align: center;
+}
+
+.c-w{
+    color: white;
+}
+
+.c-b{
+    color: black;
+}
+
+.c-g{
+    color:#5d5d5d;
+}
+
+.fz8{
+    font-size: 8px;
+}
+.fz12{
+    font-size: 12px;
+}
+.fz14{
+    font-size: 14px;
+}
+
+.fz16{
+    font-size: 16px;
+}
+
+.fz18{
+    font-size: 18px;
+}
+
+.fz20{
+    font-size: 20px;
+}
+
+.fz24{
+    font-size: 24px;
+}
+.fz30{
+    font-size: 30px;
+}
+
+.mt24{
+    margin-top: 24px;
+}
+.mt60{
+    margin-top: 60px;
+}
+
+.mb48{
+    margin-bottom: 48px;
+}
+
+.ml80{
+    margin-left: 80px;
+}
+
+.mr80{
+    margin-right: 80px;
+}
+
+.fwb{
+    font-weight: bold;
+}
+
+.pb48{
+    padding-bottom: 48px;
+}
