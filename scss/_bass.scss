@@ -6,6 +6,18 @@
     max-width: 1200px;
 }
 
+@media(max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+}
+
+@media(max-width:414px){
+    .container{
+        max-width: 414px;
+    }
+}
+
 a{
     text-decoration: none;
 }
